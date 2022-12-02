@@ -84,3 +84,7 @@ a:active {
 a:hover {
     color: rgb(5, 4, 5);
 }
+
+textarea.placeholder {
+    color: rgb(99, 38, 75);
+}
