@@ -11,6 +11,12 @@ h1 {
 }
 
 body {
+    background-size: cover;
+    height: 280px;
+    padding-top: 80px;
+    margin: 0px;
+    text-align: center;
+    background-image: url("images/pink-cloud-sky-art-skyline.jpg");
     background-color: rgb(245, 150, 166);
 }
 
@@ -94,3 +100,4 @@ a:hover {
 textarea.placeholder {
     color: rgb(99, 38, 75);
 }
+
