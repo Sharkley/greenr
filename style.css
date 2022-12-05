@@ -1,3 +1,9 @@
+:root {
+    --link: rgb(114, 13, 230);
+    --link-active: ;
+    --link-hover: ;
+}
+
 /* h Style 2-6 needed */
 
 h1 {
@@ -73,7 +79,7 @@ ul.breadcrumb li+li:before {
 }
 
 a {
-    color: rgb(114, 13, 230);
+    color: var(--link);
     text-decoration:none;
 }
 
