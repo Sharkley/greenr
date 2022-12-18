@@ -13,7 +13,7 @@ h1 {
 body {
     background-size: cover;
     height: 280px;
-    padding-top: 80px;
+    padding-top: 0px;
     margin: 0px;
     text-align: center;
     background-image: url("images/pink-cloud-sky-art-skyline.jpg");
@@ -23,16 +23,26 @@ body {
 .topnav {
     background-color: rgb(230, 159, 170);
     overflow: hidden;
+    margin-bottom: 60px;
+    
 }
 
-.topnav a {
-    float: center;
+.topnav a {    
+    align-content: space-evenly;
     color: rgb(167, 40, 89);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 30px;
 }
+
+@media screen and (max-width: 500px) {
+.topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    }
 
 .topnav a:hover {
     color: rgb(161, 109, 118);
