@@ -13,30 +13,29 @@ h1 {
 body {
     background-size: cover;
     height: 280px;
-    padding-top: 200px;
+    padding-top: 0px;
     margin: 0px;
     text-align: center;
-    background-image: url("images/snezhinki-fon-christmas-blue-winter-background-snowflakes-fr.jpg");
+    background-image: url("images/pink-cloud-sky-art-skyline.jpg");
     background-color: rgb(245, 150, 166);
 }
 
 .topnav {
-    background-color: rgb(201, 54, 76);
+    background-color: rgb(230, 159, 170);
     overflow: hidden;
     margin-bottom: 60px;
     
 }
 
-.topnav a {    
+.topnav a {
     align-content: space-evenly;
-    color: rgb(44, 13, 25);
+    color: rgb(167, 40, 89);
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
     font-size: 30px;
 }
 
-/*
 @media screen and (max-width: 500px) {
 .topnav a {
     float: none;
@@ -44,7 +43,7 @@ body {
     width: 100%;
     text-align: left;
     }
-*/
+
 .topnav a:hover {
     color: rgb(161, 109, 118);
 }
@@ -54,7 +53,7 @@ body {
 }
 
 p {
-    color: rgb(155, 10, 10);
+    color: rgb(99, 38, 75);
     text-align: center;
     font-family: arial;
 }
@@ -112,35 +111,3 @@ textarea.placeholder {
     color: rgb(99, 38, 75);
 }
 
-label  {
-    font-family: Comic Sans MS;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.item {
-    width:200px;
-    text-align:center;
-    display:block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    float:left;
-    color: black;
-
-}
-
-.item2 {
-    width:200px;
-    text-align:center;
-    display:block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-left: 10px;
-    margin-bottom: 1px;
-    float:right;
-    color: black;
-
-}
